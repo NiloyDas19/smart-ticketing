@@ -1,9 +1,10 @@
 const seats = document.querySelectorAll('.seat');
 const selectedSeats = [];
-let totalPrice;
+let totalPrice = 0;
 let phoneNumber = '';
 let discountPrice = 0;
 
+// Initially update the table for once
 updateTable();
 updateNextButtonState();
 
